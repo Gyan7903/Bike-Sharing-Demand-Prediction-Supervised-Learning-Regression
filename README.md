@@ -36,7 +36,7 @@ Functional Day - NoFunc(Non Functional Hours), Fun(Functional hours)
 
 > * #### On Random Forest regressor model, without hyperparameter tuning we got r2 score as 98% on training data and 90% on test data. Thus our model memorised the data.So it was a overfitted model, as per our assumption
 * #### After hyperparameter tuning we got r2 score as 90% on training data and 87% on test data which is  very good for us.
-# Gradient Boosting Regression(Gradient Boosting Machine):
+## Gradient Boosting Regression(Gradient Boosting Machine):
 
 > * #### On Random Forest regressor model, without hyperparameter tuning we got r2 score as 86% on training data and 85% on test data.Our model performed well without hyperparameter tuning.
 * #### After hyperparameter tuning we got r2 score as 96% on training data and 91% on test data,thus we improved the model performance by hyperparameter tuning.
