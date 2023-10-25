@@ -19,20 +19,20 @@ Seasons - Winter, Spring, Summer, Autumn
 Holiday - Holiday/No holiday
 Functional Day - NoFunc(Non Functional Hours), Fun(Functional hours)
 
-#Conclusions:
+# Conclusions:
 
 * #### As we have calculated MAE,MSE,RMSE and R2 score for each model. Based on r2 score will decide our model performance.
 * #### Our assumption: if the differnece of R2 score between Train data and Test is more than 5 % we will consider it as overfitting.
 
-# Linear,Lasso,Ridge and ElasticNet.
+## Linear,Lasso,Ridge and ElasticNet.
 
 >* #### 1)From The above data frame, we can see that linear,Lasso,Ridge  and Elastic  regression models have almost similar R2 scores(61%) on both training and test data.(Even after using GridserachCV we have got similar results as of base models).
 
-# Decision Tree Regressor:
+## Decision Tree Regressor:
 > * #### On Decision tree regressor model, without hyperparameter tuning we got r2 score as 100% on training data and on test data it was very less. Thus our model memorised the data.So it was a overfitted model.
 * #### After hyperparameter tuning we got r2 score as 88% on training data and 83% on test data which is quite good for us.
 
-# Random Forest:
+## Random Forest:
 
 > * #### On Random Forest regressor model, without hyperparameter tuning we got r2 score as 98% on training data and 90% on test data. Thus our model memorised the data.So it was a overfitted model, as per our assumption
 * #### After hyperparameter tuning we got r2 score as 90% on training data and 87% on test data which is  very good for us.
